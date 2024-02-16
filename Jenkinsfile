@@ -15,6 +15,14 @@ pipeline{
 			}
 		}
 		
+		stage('Testing and Packaging'){
+			steps{
+				script{
+					sh 'mvn clean package'
+				}
+			}
+		}
+		
 		stage('Build Docker Image'){
 			steps{
 				script{

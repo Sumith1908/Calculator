@@ -1,2 +1,5 @@
-FROM ubuntu:latest 
-COPY calculator.java /app/calculator.java
+FROM openjdk
+
+WORKDIR /app
+
+COPY target/*.jar ./
