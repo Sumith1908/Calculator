@@ -28,21 +28,42 @@ public class CalculatorTest {
 
     @Test
     public void testAddition() {
-        assertEquals(8.0, calculator.add(3.0, 5.0), 0.0001);
+        assertEquals(8.0, Calculator.add(3.0, 5.0), 0.0001);
     }
 
     @Test
     public void testSubtraction() {
-        assertEquals(2.0, calculator.subtract(5.0, 3.0), 0.0001);
+        assertEquals(2.0, Calculator.subtract(5.0, 3.0), 0.0001);
     }
 
     @Test
     public void testMultiplication() {
-        assertEquals(15.0, calculator.multiply(3.0, 5.0), 0.0001);
+        assertEquals(15.0, Calculator.multiply(3.0, 5.0), 0.0001);
     }
 
     @Test
     public void testDivision() {
-        assertEquals(1.6667, calculator.divide(5.0, 3.0), 0.0001);
+        assertEquals(1.6667, Calculator.divide(5.0, 3.0), 0.0001);
+    }
+
+    @Test
+    public void testFactorial() {
+        assertEquals(120.0, Calculator.factorial(5), 0.0001);
+    }
+
+    @Test
+    public void testLogarithm() {
+        assertEquals(1.6094, Calculator.logarithm(5.0), 0.0001);
+    }
+
+    @Test
+    public void testPower() {
+        assertEquals(125.0, Calculator.power(5.0, 3.0), 0.0001);
+    }
+
+    @Test
+    public void testSquareRoot() {
+        assertEquals(2.2361, Calculator.squareRoot(5.0), 0.0001);
     }
 }
+
