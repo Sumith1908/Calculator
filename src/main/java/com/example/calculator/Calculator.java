@@ -28,10 +28,7 @@ public class Calculator {
                 System.out.println("Exiting the calculator. Bye!");
                 continue;
             }
-            if(choice > 9 || choice<1) {
-                System.out.println("Enter a valid choice!!");
-                continue;
-            }
+       
 
             double result = 0;
 
