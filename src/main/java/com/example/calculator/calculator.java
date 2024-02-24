@@ -23,7 +23,7 @@ public class calculator {
             if (choice == 5) 
             {
                 exit = true;
-                System.out.println("Exiting the calculator. Byeee!!");
+                System.out.println("Exiting the calculator. Byeee!");
                 continue;
             }
 
