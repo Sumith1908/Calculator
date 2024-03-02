@@ -25,7 +25,7 @@ public class Calculator {
 
             if (choice == 9) {
                 exit = true;
-                System.out.println("Exiting the calculator. Bye!");
+                System.out.println("Exiting the calculator. Bye!!");
                 continue;
             }
        
