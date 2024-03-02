@@ -18,4 +18,4 @@
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name calculator sumith783/calculator /bin/bash
+      shell: docker run -it -d --name calculator sumith783/calculator
